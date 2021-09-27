@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Feliz</title>
+  </head>
+  <body>
+    <header id="top">
+      <nav>
+        <img src="#" alt="" />Logo
+        <ul>
+          <li>
+            <a href="index.html"> <img src="img/home.png" /> Home</a>
+          </li>
+          <li>
+            <a href="servico.html"> <img src="img/servic.png" /> Serviços</a>
+          </li>
+          <li>
+            <a href="#"> <img src="img/contact.png" /> Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Seu Pet Feliz</h1>
+
+    <br /><br />
+    <h2>Envie-nos uma mensagem</h2>
+    <!-- criado o forma com algumas das opções de input, text,email, number, reset, submit, tel, checkbox, tags select e option -->
+    <form method="post">
+      <fieldset>
+        <fieldset>
+          <legend>Opção de contato</legend>
+          <label for="tel">Telefone</label>
+          <input type="checkbox" id="tel" />
+          <label for="sms">SMS</label>
+          <input type="checkbox" id="sms" />
+          <label for="email">Email</label>
+          <input type="checkbox" id="email" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Dados para contato</legend>
+          <label for="fname">Nome: </label>
+          <input
+            id="fname"
+            name="fname"
+            type="text"
+            required
+            placeholder="Nome Completo"
+          /><br /><br />
+          <label for="email">Email: </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            placeholder="email@email.com"
+          /><br /><br />
+          <label for="tel">Celular: </label>
+          <input
+            id="tel"
+            type="tel"
+            maxlength="11"
+            pattern="[0-9]{11}"
+            required
+            placeholder="(XX)XXXXX-XXXX"
+          /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Endereço</legend>
+          <label for="estado">Estado: </label>
+          <select name="estado" id="estado">
+            <option disabled selected>Selecione...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option></select
+          ><br /><br />
+
+          <label for="cidade">Cidade: </label>
+          <input type="text" id="cidade" /><br /><br />
+          <label for="end">Endereço: </label>
+          <input type="text" id="end" /><br /><br />
+          <label for="numero">Número: </label>&nbsp;
+          <input type="number" id="numero" /><br /><br />
+          <label for="bairro">Bairro: </label> &emsp;
+          <input type="text" id="bairro" />
+          <br /><br />
+
+          <label for="msg">Mensagem</label><br />
+          <textarea
+            id="msg"
+            cols="30"
+            placeholder="Deixe sua mensagem"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <br />
+        <input type="reset" value="Limpar" />
+        <input type="submit" value="Cadastrar" />
+        <br />
+      </fieldset>
+    </form>
+    <br /><br />
+
+    <footer>
+      <p>Nossas redes sociais</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Twitter</a></li>
+      </ul>
+      <p>&copy; Todos os direitos reservados.</p>
+
+      <address>
+        <p>Rua: XYZ N° 123</p>
+        <p>Cidade: Alguma - SP</p>
+      </address>
+      <a href="#top"><img src="img/up.png" /></a>
+    </footer>
+  </body>
+</html>
