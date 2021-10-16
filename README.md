@@ -8,3 +8,5 @@ Projeto desenvolvido puramente em HTML, estilização ficará para próximo aula
 
 Uma Edtech brasileira, a [_SoulCode Academy_](https:://soulcodeacademy.org/)(Link externo) é uma escola de inclusão digital, de metodologia ágil, com a missão de gerar impacto social,
 através da capacitação tecnológica, com foco em diversidade, equidade e empregabilidade.
+
+alteração vinda do vs clonado
